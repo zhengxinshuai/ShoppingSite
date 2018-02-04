@@ -1,0 +1,25 @@
+<li>
+		<input name='address' type='radio' class='radio' />
+		<label>天津市 县 静海县 12312312</label><label class='persons'>123123123123</label>+
+		<label class='phones'>213123213123213</label> &nbsp;&nbsp;
+		<a href='javascript:void(0)' class='delete' style='display:inline-block;'>删除</a>
+		<span class='addressId'>69</span>
+		 <a href='javascript:void(0)' class='setDefault' style='display:inline-block;'>设置为默认地址</a>
+ </li>
+<li >
+        		<c:if test="${temp.isDefault eq 'N'}">
+        			 <input name="address" type="radio" class="radio" />
+        		</c:if>
+                <c:if test="${temp.isDefault eq 'Y'}">
+        			 <input name="address" type="radio" checked="checked" class="radio"/>
+        		</c:if> 
+                <label class="clientaddress">
+                <c:out value="${temp.provinceName} ${temp.cityName } ${temp.areaName} ${temp.street}"/> </label>
+                <label class="persons"><c:out value=" ${temp.contactPerson } "/></label>+<label class="phones"><c:out value="${temp.phoneNum }"/></label>
+                &nbsp;&nbsp;
+                <a href="javascript:void(0)" class="delete">删除</a>
+               <a href="javascript:void(0)" class="setDefault">设置为默认地址</a>
+             	<span class="addressId"><c:out value="${temp.addressId}"/></span>
+             	
+             	
+             </li>

@@ -1,0 +1,54 @@
+@charset "UTF-8";
+#sort_price,#sort_praise,#sort_num,#sort_date{
+    border: 1px solid #ff8517;
+    color:  #ff8517;
+    width: 80px;
+    height: 80px;
+    font-size: 13px;
+    text-align: center;
+    background-color: #ffe790;
+    z-index: 201;
+}
+
+#sort_price li,#sort_praise li,#sort_num li,#sort_date li{
+   height: 35px;
+    line-height: 35px;
+    
+}
+#sort_price {
+    position:absolute;
+    top: 40px;
+    left: 576px;
+   display: none;
+}
+#sort_praise{
+    position:absolute;
+    top: 40px;
+    left: 657px;
+    display: none;
+}
+#sort_num{
+    position:absolute;
+    top: 40px;
+    left: 737px;
+    display: none; 
+}
+#sort_date{
+    position:absolute;
+    top: 40px;
+    left: 818px;
+   display: none; 
+}
+.Page_sort:hover{
+    cursor:pointer;
+}
+.pageText:hover{
+	cursor:pointer;
+}
+.sortopr:hover{
+	 cursor:pointer;
+}
+#page{
+    position: relative;
+}
+

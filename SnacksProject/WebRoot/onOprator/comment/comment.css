@@ -1,0 +1,165 @@
+@charset "UTF-8";
+div{
+
+}
+.comment{
+    width: 998px;
+    border: 1px solid #cdcdcd;
+}
+.comment:after{
+    content:' ';
+    display:block;
+    clear:both;
+}
+.comment h2{
+    font-size: 16px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0;
+    padding: 0 0 0 15px;
+    border-bottom: 1px solid #cdcdcd;
+    background-color: #eff4f6;
+}
+.comment_menu{
+    width: 499px;
+    float: left;
+    font-size: 15px;
+    background-color: #f3f8fe;
+    height: 30px;
+    line-height: 30px;
+}
+.comment_list{
+    float:left;
+}
+.comment_list ul{
+    margin: 0px;
+    padding:0px;
+}
+.comment_list ul li:after{
+    content:' ';
+    display:block;
+    clear:both;
+}
+
+
+.comment_list ul li{
+    list-style-type: none;
+    height: 170px;
+    width: 998px;
+    border-bottom: 1px solid #cdcdcd;
+    list-style-type:none;
+}
+.order_msg a img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #cdcdcd;
+    padding: 1px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.order_msg a span{
+    font-size: 13px;
+    text-decoration: none;
+    display: inline-block;
+    max-height: 100px;
+    max-width: 320px;
+    position:absolute;
+    top: 50px;
+    left: 120px;
+}
+.order_msg{
+    width: 499px;
+    height: 170px;
+    float: left;
+    position: relative;
+}
+.order_comment{
+    width: 499px;
+    float: left;
+    height: 160px;
+    padding-top: 10px;
+    position:relative;
+}
+.text_input{
+    height: 104px;
+    width: 384px;
+    border: 1px solid #cdcdcd;
+    padding: 8px;
+}
+.text_input textarea{
+    width: 380px;
+    height: 100px;
+    background-color: rgba(255, 153, 8, 0.15);
+    border: 0;
+    outline: 0;
+    resize: none;
+}
+.comment_tip{
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    height: 40px;
+    line-height: 40px;text-indent: 40px;
+    background-image: url("img/五角星.png");
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+}
+.comment_submit{
+
+}
+.comment_submit a{
+    margin: 20px 0 20px 0;
+    width: 110px;
+    border: none;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 1.4;
+    background-color: orange;
+    cursor: pointer;
+    outline: 0;
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,.15);
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    padding: 9px 13px;
+    border-radius: 4px;
+    position: relative;
+    left: 440px;
+}
+.comment_submit a:hover{
+    background-color: rgba(255, 165, 0, 0.79);
+}
+.comment_submit a:active{
+    background-color: #d28400;
+}
+.order_praise{
+    float: right;
+    position: absolute;
+    top:40px;
+    right:30px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.order_praise:hover{
+    color: red;
+}
+#cul{
+	padding:0px;
+	
+}
+#cul li{
+	  list-style-type: none;
+}
+body{
+	width:1000px;
+	margin:0 auto;
+	display:block;
+}
+.sid{
+	display:none;
+}
+#oid{
+	display:none;
+	position:absolute;
+}

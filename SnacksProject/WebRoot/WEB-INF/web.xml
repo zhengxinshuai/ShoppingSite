@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>SnacksProject</display-name>
+  <welcome-file-list>
+    <welcome-file>/login/login.jsp</welcome-file>
+   
+  </welcome-file-list>
+  
+  
+  <filter>
+  
+  	<filter-name>InitWelcomeDataFilter</filter-name>
+  	<filter-class>com.dfbb.common.InitWelcomeDataFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>InitWelcomeDataFilter</filter-name>
+  	<url-pattern>/onOprator/mainPage/welcome.jsp</url-pattern>
+  	 	<dispatcher>REQUEST</dispatcher>  
+	<dispatcher>FORWARD</dispatcher>  
+  </filter-mapping>
+  
+ <filter>
+  
+  	<filter-name>CharsetFilter</filter-name>
+  	<filter-class>com.dfbb.common.CharsetFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>CharsetFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  
+  <filter>
+  
+  	<filter-name>RememberAccountFilter</filter-name>
+  	<filter-class>com.dfbb.common.RememberAccountFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>RememberAccountFilter</filter-name>
+  	<url-pattern>/login/login.jsp</url-pattern>
+  	<dispatcher>REQUEST</dispatcher>  
+	<dispatcher>FORWARD</dispatcher>  
+  </filter-mapping>
+  <filter-mapping>
+  	<filter-name>RememberAccountFilter</filter-name>
+  	<url-pattern>/</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+  
+  	<filter-name>comfirmLoginFilter</filter-name>
+  	<filter-class>com.dfbb.common.UserLoginFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>comfirmLoginFilter</filter-name>
+  	<url-pattern>/onOprator/*</url-pattern>
+  </filter-mapping>
+  
+  
+   <filter>
+  
+  	<filter-name>ManagerFilter</filter-name>
+  	<filter-class>com.dfbb.common.ManagerFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>ManagerFilter</filter-name>
+  	<url-pattern>/Manager/manager.jsp</url-pattern>
+  </filter-mapping>
+  
+  
+  
+   <filter>
+   
+  
+  	<filter-name>InitProvinceForRegister</filter-name>
+  	<filter-class>com.dfbb.common.InitProvinceForRegisterFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>InitProvinceForRegister</filter-name>
+  	<url-pattern>/register/register.jsp</url-pattern>
+  </filter-mapping>
+    <filter-mapping>
+  	<filter-name>InitProvinceForRegister</filter-name>
+  	<url-pattern>/onOprator/pay/pay.jsp</url-pattern>
+  	<dispatcher>REQUEST</dispatcher>  
+	<dispatcher>FORWARD</dispatcher>  
+  </filter-mapping>
+   <servlet>
+  	<servlet-name>userServlet</servlet-name>
+  	<servlet-class>com.dfbb.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>userServlet</servlet-name>
+  	<url-pattern>/userServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>AddressServlet</servlet-name>
+  	<servlet-class>com.dfbb.servlet.AddressServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddressServlet</servlet-name>
+  	<url-pattern>/AddressServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>PictureCheckCode</servlet-name>
+  	<servlet-class>com.dfbb.common.PictureCheckCode</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>PictureCheckCode</servlet-name>
+  	<url-pattern>/PictureCheckCode</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>SnackServlet</servlet-name>
+  	<servlet-class>com.dfbb.servlet.SnackServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SnackServlet</servlet-name>
+  	<url-pattern>/SnackServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>CollectionServlet</servlet-name>
+  	<servlet-class>com.dfbb.servlet.CollectionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CollectionServlet</servlet-name>
+  	<url-pattern>/CollectionServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  	<servlet-name>OrderServlet</servlet-name>
+  	<servlet-class>com.dfbb.servlet.OrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>OrderServlet</servlet-name>
+  	<url-pattern>/OrderServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ManagerServlet</servlet-name>
+  	<servlet-class>com.dfbb.servlet.ManagerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ManagerServlet</servlet-name>
+  	<url-pattern>/ManagerServlet</url-pattern>
+  </servlet-mapping>
+
+  	
+  
+  
+  
+  
+</web-app>

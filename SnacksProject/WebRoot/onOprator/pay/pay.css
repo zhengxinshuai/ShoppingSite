@@ -1,0 +1,174 @@
+@charset "UTF-8";
+.order_address{
+    height: auto;
+    width: 1000px;
+}
+.order_address:after{
+    content:' ';
+    display:block;
+    clear:both;
+}
+.order_address h3{
+    border-bottom: 1px solid #cdcdcd;
+    font-size: 16px;
+}
+.order_address h3 a{
+    float: right;
+    text-decoration: none;
+}
+.order_address ul{
+    padding-left: 0px;
+}
+.order_address ul li {
+    list-style-type: none;
+    height: 37px;
+    line-height: 35px;
+    padding-left: 30px;
+}
+.cur{
+    height:37px;
+    border: 1px solid orange;
+    background-color: #fffab3;
+}
+.cre{
+    background-color: #d4cf93;
+}
+.order_address ul li span{
+    font-size: 15px;
+    color: #303030;
+}
+
+
+.order_msg{
+    height: auto;
+    width: 1000px;
+}
+.order_msg:after{
+    content:' ';
+    display:block;
+    clear:both;
+}
+.order_msg h3{
+    border-bottom: 1px solid #cdcdcd;
+    font-size: 16px;
+}
+.sum{
+    border-top: 2px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+    width: 1000px;
+    height: 50px;
+}
+.sum div{
+    float: right;
+    margin-right: 100px;
+}
+.sum div span,.sum div strong{
+    height: 47px;
+    line-height: 47px;
+}
+.sum div span{
+    font-size: 16px;
+}
+.sum div strong{
+    font-size: 20px;
+    font-family:tahoma;
+    color: #ff4400;
+}
+.order_payInfo{
+    width: 1000px;
+    position: relative;
+}
+.order_payInfo:after{
+    content:' ';
+    display:block;
+    clear:both;
+}
+.payInfo_show{
+    border: 3px solid #ff4400;
+    padding: 10px 10px 10px 20px;
+    min-width: 230px;
+    height: 80px;
+    float: right;
+    clear: left;
+}
+.payInfo_show div{
+    float: right;
+    clear: left;
+    font: 15px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+
+}
+.show_money{
+    height: 39px;
+    line-height:39px;
+}
+.show_address{
+    height: 19px;
+    line-height:19px;
+}
+.show_user{
+    height: 19px;
+    line-height:19px;
+}
+.show_strong{
+    font-weight: 700;
+}
+#pay_money{
+    font-size: 31px;
+    font-weight: 700;
+    color: #ff4400;
+}
+.pay_submit {
+	 
+    width: 182px;
+    height: 39px;
+    position: relative;
+    vertical-align: middle;
+    line-height: 39px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    float: right;
+  
+}
+body{
+	display:block;
+	width:1000px;
+	margin:0px auto;
+}
+
+.delete,.setDefault{
+	display:none;
+}
+#addAdress{
+	
+	position:absolute;
+	right:180px;
+	background-color:darkgrey;
+	padding:10px;
+	border-radius:10px;
+}
+	#position{
+	width:300px;
+	}
+
+#display{
+	right:550px;
+	position:absolute;
+	top:60px;
+	
+	
+}
+#addressul{
+	height:200px;
+	
+}
+.addressId{
+	display:none;
+}
+#myForm{
+	width:300px;
+}
+.sidclass{
+	display:none;
+}

@@ -1,0 +1,383 @@
+@charset "UTF-8";
+html{
+    height:auto;
+}
+body{
+
+    width: 1000px;
+    margin: 0px auto;
+}
+header{
+
+    height: 15%;
+
+}
+section{
+    height: 70%;
+
+    display:block;
+}
+section:after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+footer{
+    height: 15%;
+
+}
+#left{
+    width: 20%;
+    box-sizing: border-box;
+    height: 100%;
+    float: left;
+
+}
+#right{
+    width: 60%;
+    box-sizing: border-box;
+    height: 258px;
+    float: left;
+
+    padding: 0px 15px 15px 15px;
+}
+#caiDan{
+    width: 15%;
+    box-sizing: border-box;
+    height: 100%;
+    float: left;
+
+}
+#login #user a,#login #register a,#menu ul li a{
+    text-decoration: none;
+    color: #6e6e6e;
+}
+#login{
+	width:1000px;
+	
+}
+#menu{
+    float: right;
+    
+}
+#li{
+    border-right: none;
+}
+#user,#register{
+    padding: 15px;
+    color: #6e6e6e;
+    font-size: 13px;
+
+}
+#logo,#login,#user,#register{
+    display: inline-block;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+ul li{
+    list-style-type: none;
+
+}
+#menu ul li{
+    float: left;
+    padding: 15px;
+    color: #6e6e6e;
+    font-size: 13px;
+    border-right: 1px solid #6e6e6e;
+}
+#login{
+    background-color: #f6f6f6;
+}
+#login,#menu{
+    display: inline-block;
+}
+#search{
+    height: 90px;
+    border-bottom: 10px solid #FFBDC1;
+}
+#logo{
+    float: left;
+}
+.logo{
+	width:60px;
+	height:60px;
+    margin: 10px;
+}
+#searchInput{
+    width: 500px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+}
+.search1{
+    margin: 0px;
+    padding: 10px 0px 10px 10px;
+    border: 3px solid #FFBDC1;
+    width: 350px;
+
+}
+.search2{
+
+    font-size: 14px;
+    margin: 0px;
+    border: 1px solid #FFBDC1;
+    padding: 10px 10px 10px 10px;
+    background-color: #FFBDC1;
+    color: white;
+    text-decoration: none;
+}
+#searchInput{
+    margin-top: 18px;
+    height: 60px;
+    width: 460px;
+}
+
+
+.snackMessage img{
+    float: left;
+    height: 400px;
+    width: 400px;
+}
+#orderMessage{
+    border: 1px solid #cdcdcd;
+    width: 495px;
+    height: 378px;
+    float: left;
+    margin-left: 20px;
+    padding: 0px 20px 20px 20px;
+    position: relative;
+
+}
+#orderMessage p:nth-of-type(1){
+    font-size: 25px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-indent: 35px;
+}
+.snackMessage{
+    border: 1px solid #cdcdcd;
+    padding: 20px;
+    width: 958px;
+   
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+#orderMessage p:nth-of-type(2){
+    font-family: Verdana;
+    font-size: 20px;
+    text-indent: 35px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff2e8;
+}
+#orderMessage p:nth-of-type(2) span:nth-of-type(1){
+    color: #ffa500;
+    font-size: 30px;
+}
+#orderMessage p:nth-of-type(2) span:nth-of-type(2){
+    color: #6d6d6d;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+#orderMessage p:nth-of-type(3){
+    font-family: Verdana;
+    font-size: 18px;
+    text-indent: 35px;
+    background-color: #fff9f5;
+}
+#orderMessage p:nth-of-type(4){
+    font-family: Verdana;
+    font-size: 18px;
+    text-indent: 35px;
+    background-color: #fff9f5;
+}
+.jian,.jia{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #cdcdcd;
+    text-align: center;
+    font-size: 30px;
+}
+.jian{
+    border-right: none;
+    color: #7a7a7a;
+}
+.jia{
+    border-left: none;
+    color: #7a7a7a;
+}
+#buyNum input{
+    display: inline-block;
+    height: 24px;
+    width: 70px;
+    padding: 0px;
+    border: 1px solid #cdcdcd;
+    position: relative;
+    bottom: 5px;
+    text-align: center;
+    font-size:15px;
+}
+#buyNum{
+    margin-bottom: 30px;
+}
+#buyNum span{
+    color: #303030;
+    padding-left: 20px;
+    position: relative;
+    bottom: 5px;
+}
+ #orderMessage a{
+    text-decoration: none;
+
+}
+.buy{
+    border:1px solid rgba(255, 217, 188, 0.47);
+    border-radius: 5px;
+    display: inline-block;
+    color: #ff4400;
+    background-color: #ffe4d0;
+    height: 38px;
+    line-height: 38px;
+    width: 134px;
+    text-align: center;
+}
+.buy:hover{
+    background-color: #ffcdaf;
+}
+.add_Cart{
+    margin-left: 20px;
+    border:1px solid rgb(255, 68, 0);
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    background-color:rgb(255, 68, 0);
+    height: 38px;
+    line-height: 38px;
+    width: 200px;
+    text-align: center;
+}
+.add_Cart:hover{
+    background-color: rgb(255, 36, 11);
+}
+#orderMessage a:hover{
+    cursor:pointer;
+}
+.collect{
+    margin: 30px;
+}
+.information_menu ul{
+    float: left;
+
+    background-color:#f6f6f6;
+    width: 998px;
+    height: 47px;
+}
+.information_menu ul li a{
+    text-decoration: none;
+}
+.information_menu ul li{
+    height: 45px;
+    line-height: 45px;
+    width: 131px;
+    float: left;
+    text-align: center;
+    background-color: #f6f6f6;
+    cursor:pointer;
+}
+.information_menu ul li:nth-of-type(2){
+    border-right: 1px solid #cdcdcd;
+}
+#click{
+   border-top: 1px solid red;
+    border-left: 1px solid #cdcdcd;
+    background-color: white;
+    color: red;
+}
+#click a{
+    color: red;
+}
+#noClick{
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+    border-left: 1px solid #cdcdcd;
+}
+#noClick a{
+color: #878787;
+}
+.goodsInformation,.comment{
+    float: left;
+    height: auto;
+    width: 998px;
+    border-left: 1px solid #cdcdcd;
+    border-right: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+    padding: 20px;
+}
+.goodsInformation:after{
+    content:' ';         /*在clear类后面添加内容为空*/
+    display:block;     /*把添加的内容转化为块元素*/
+    clear:both;           /*清除这个元素两边的浮动*/
+}
+.goodsInformation{
+    float: left;
+    display:inline-block;
+}
+.comment{
+    float: left;
+    display:inline-block;
+}
+.comment ul li:after{
+    content:' ';         /*在clear类后面添加内容为空*/
+    display:block;     /*把添加的内容转化为块元素*/
+    clear:both;
+}
+.comment ul li{
+    list-style-type: none;
+    width: 1000px;
+    border-bottom: 1px solid #cdcdcd;
+    padding-bottom: 20px;
+}
+.comment_user{
+    float: left;
+}
+.comment_user{
+    float: left;
+    height: 135px;
+    width: 135px;
+    border: 1px solid #cdcdcd;
+}
+.comment_user img{
+    height: 135px;
+    width: 135px;
+    
+}
+.commentcontent{
+	position:relative;
+	top:20px;
+	left:20px;
+	color:grey;
+	font: italic normal 15px normal;
+}
+.commentdate{
+	color:grey;
+	margin-top:85px;
+	position:relative;
+	left:10px;
+}
+.commentUname{
+	padding-left:20px;
+}
+em{
+	display:inline-block;
+	position:absolute;
+	width:300px;
+}
+

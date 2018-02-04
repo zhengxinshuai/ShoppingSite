@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+#login #user a,#login #register a,#menu ul li a{
+    text-decoration: none;
+    color: #6e6e6e;
+}
+#menu{
+    float: right;
+   
+}
+#menu li{
+   display:inline-block;
+   
+}
+#user,#register{
+    padding: 15px;
+    color: #6e6e6e;
+    font-size: 13px;
+
+}
+#logo,#login,#user,#register{
+    display: inline-block;
+}
+#login{
+	width:1000px;
+}

@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+.needStar{
+	color:red;
+	
+}
+p{
+	line-height:30px;
+}
+h1{
+	position:relative;
+	font-size:24px;
+	top:10px;
+	left:160px;
+}
+#form{
+	position:relative;
+	left:160px;
+	margin-top:20px;
+	width:380px;
+	position:relative;
+}
+
+.text{
+	height:24px;
+	width:220px;
+	position:absolute;
+	right:0px;
+}
+.otherInput{
+	position:absolute;
+	left:158px;
+	
+}
+#submit{
+	width:150px;
+	height:40px;
+	color:white;
+	background-color:darkgrey;
+	position:relative;
+	left:100px;
+	top:30px;
+}
+.ftext{
+	position:absolute;
+	right:-130px;
+}
+#border{
+	position:relative;
+	
+	width:710px;
+}
+.footer{
+	position:relative;
+	top:50px;
+}
+#msg{
+	position:relative;
+	left:300px;
+}

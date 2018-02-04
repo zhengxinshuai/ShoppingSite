@@ -1,0 +1,148 @@
+@charset "UTF-8";
+.wrap_line{
+    width: 990px;
+    height: 2px;
+    background-color: orange;
+}
+.cart_table{
+    width: 990px;
+    height: 50px;
+}
+.table_inner,.table_price,.table_num,.table_sum,.table_opr{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-family: 宋体;
+    font-size: 12px;
+}
+.good_inner,.good_price,.good_num,.good_sum,.good_opr{
+    display: inline-block;
+    height: 119px;
+    font-family: 宋体;
+    font-size: 12px;
+}
+.table_inner{
+    width: 480px;
+    text-align: center;
+}
+.table_price{
+    width: 120px;
+}
+.table_num{
+    width: 120px;
+}
+.table_sum{
+    width: 120px;
+}
+.table_opr{
+    width: 120px;
+}
+.goodList ul{
+    padding: 0px;
+}
+.goodList ul li{
+    width: 990px;
+    height: 118px;
+    list-style-type: none;
+    border-top: 1px solid #cdcdcd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.good_inner,.good_price,.good_num,.good_sum,.good_opr{
+    display: inline-block;
+    box-sizing: border-box;
+}
+.good_inner{
+    width: 460px;
+    position: relative;
+    padding-top: 20px;
+
+ }
+.good_price{
+    width: 120px;
+    position: absolute;
+    top: 40px;
+    right: 385px;
+}
+.good_num{
+    width: 120px;
+    position: absolute;
+    top: 40px;
+    right: 290px;
+}
+.good_sum{
+    width: 120px;
+    position: absolute;
+    top: 40px;
+    right: 135px;
+}
+.good_opr{
+    width: 120px;
+    position: absolute;
+    top: 40px;
+    right: 12px;
+}
+.good_inner img{
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.good_inner a span{
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    width: 250px;
+    text-decoration: none;
+}
+#good_price{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.buyNum{
+    margin-bottom: 30px;
+}
+.buyNum span{
+    color: #303030;
+    padding-left: 20px;
+    position: relative;
+    bottom: 5px;
+}
+#orderMessage a{
+    text-decoration: none;
+
+}
+.jian,.jia{
+    display: inline-block;
+    width: 19px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #cdcdcd;
+    text-align: center;
+    font-size: 30px;
+    cursor:pointer;
+}
+.jian{
+    border-right: none;
+    color: #7a7a7a;
+}
+.jia{
+    border-left: none;
+    color: #7a7a7a;
+}
+.buyNum input{
+    display: inline-block;
+    height: 25px;
+    width: 50px;
+    padding: 0px;
+    border: 1px solid #cdcdcd;
+    position: relative;
+    bottom: 5px;
+    text-align: center;
+    font-size:15px;
+}

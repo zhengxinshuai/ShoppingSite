@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+.footerText{
+	color:grey;
+	font-size:15px;
+	line-height:30px;
+	text-align:center;
+	display:inline-block;
+	width:1000px;
+}
